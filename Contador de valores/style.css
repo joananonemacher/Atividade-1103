@@ -1,0 +1,45 @@
+.Contador{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    background-color: white;
+    gap: 3px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.Contador div{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: white;
+    -webkit-user-select: none; /**Gemini disse para mim colocar isso pois quando o mouse estava em cima do sinal de menos aparecia como se eu fosse escrever, funcionou então deixei**/
+}
+.menos{
+    background-color: rgb(2, 2, 172);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 80px;
+}
+.mais{
+    background-color: rgb(2, 2, 172);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 80px;
+}
+#btnmais{
+    cursor: pointer;
+    user-select: none;
+    transition: opacity 0.2s;
+}
+.valor{
+    background-color: blue;
+}
